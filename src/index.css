@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Clash Display', sans-serif;
+  }
+}
+
+:root {
+  --brand-color: #faff00;
+  --background-color: #fdf3f3;
+  --neutral-prime-color: #ffffff;
+  --neutral-second-color: #e6e6e6;
+  --neutral-third-color: #0a0a0a;
+}
