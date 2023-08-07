@@ -2,6 +2,7 @@ import SectionMainTitle from '../components/SectionMainTitle';
 import SectionSubTitle from '../components/SectionSubTitle';
 import { services } from '../data/service';
 import serviceImage from '../assets/service.png';
+import { BsArrowDown } from 'react-icons/bs';
 
 export default function ServiceSection() {
   return (
@@ -63,6 +64,12 @@ export default function ServiceSection() {
           ))}
         </div>
       </div>
+      <button
+        type="button"
+        className="flex flex-col items-center justify-center rotate-45 rounded-full bg-ntrlPrime mt-7 text-ntrlThird w-[133px] aspect-square transition-all hover:-rotate-45 hover:text-ntrlPrime hover:bg-ntrlThird hover:scale-105 border-ntrlPrime hover:border-2 "
+      >
+        View All <BsArrowDown />
+      </button>
     </section>
   );
 }
