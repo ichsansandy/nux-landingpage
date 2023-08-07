@@ -10,7 +10,7 @@ export default function HeroSection() {
           super branding and creative ideas
         </div>
         <span className="hidden md:block lg:inline-block align-top p-4">
-          <div className="bg-ntrlSecond flex justify-center items-center lg:px-16 lg:h-[94px] rounded-[50px] ">
+          <div className="bg-ntrlSecond flex justify-center items-center lg:px-16 lg:h-[94px] rounded-[50px] border-2 border-ntrlThird ">
             <svg
               width="54"
               height="58"

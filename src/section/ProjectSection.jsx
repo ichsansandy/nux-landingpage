@@ -5,7 +5,7 @@ import { portfolios } from '../data/portfolio';
 
 export default function ProjectSection() {
   return (
-    <section className="bg-background pt-[120px] px-[32px] flex flex-col">
+    <section id='project' className="bg-background pt-[120px] px-[32px] flex flex-col">
       <div className="flex flex-col gap-3 md:flex-row justify-between items-center mb-4">
         <div className="max-w-[350px]">
           <SectionSubTitle>02 / Project</SectionSubTitle>
