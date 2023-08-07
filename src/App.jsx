@@ -6,6 +6,7 @@ import ClientSection from './section/ClientSection';
 import AboutSection from './section/AboutSection';
 import TestimonialSection from './section/TestimonialSection';
 import ContactSection from './section/ContactSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <AboutSection />
       <TestimonialSection />
       <ContactSection />
+      <Footer />
     </main>
   );
 }
