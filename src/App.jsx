@@ -5,6 +5,7 @@ import ProjectSection from './section/ProjectSection';
 import ClientSection from './section/ClientSection';
 import AboutSection from './section/AboutSection';
 import TestimonialSection from './section/TestimonialSection';
+import ContactSection from './section/ContactSection';
 
 function App() {
   return (
@@ -16,8 +17,7 @@ function App() {
       <ClientSection />
       <AboutSection />
       <TestimonialSection />
-      <section>Blog</section>
-      <section>Contact</section>
+      <ContactSection />
     </main>
   );
 }

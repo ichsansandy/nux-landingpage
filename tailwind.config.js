@@ -32,11 +32,6 @@ export default {
   plugins: [
     plugin(function ({ addBase }) {
       addBase({
-        display: {
-          fontSize: '139px',
-          fontWeight: '700',
-          letterSpacing: '-.025em',
-        },
         h1: { fontSize: '56px', fontWeight: '600', letterSpacing: '-.025em' },
         h2: { fontSize: '48px', fontWeight: '600', letterSpacing: '-.025em' },
         h3: { fontSize: '32px', fontWeight: '600' },
