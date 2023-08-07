@@ -2,7 +2,7 @@ import eye from '../assets/eye.png';
 
 export default function ContactSection() {
   return (
-    <section className="py-[120px] px-[32px] bg-background flex flex-col gap-[32px]">
+    <section className="py-[120px] px-[32px] bg-background flex flex-col items-center gap-[32px]">
       <div className="text-h3 leading-[30px] md:leading-[50px] md:text-h1 xl:text-display xl:leading-[125px] max-w-[1378px] text-center uppercase font-extrabold">
         Let&apos;s{' '}
         <img
