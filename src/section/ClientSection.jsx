@@ -31,8 +31,8 @@ export default function ClientSection() {
           </SectionMainTitle>
         </div>
       </div>
-      <div className="flex flex-col gap-[72px] w-full">
-        <div className="flex justify-between items-center w-full">
+      <div className="flex flex-col md:gap-[72px] w-full">
+        <div className="flex flex-col gap-5 md:flex-row justify-between items-center w-full">
           <svg
             width="125"
             height="32"
@@ -104,7 +104,7 @@ export default function ClientSection() {
             />
           </svg>
         </div>
-        <div className="flex justify-between items-center w-full">
+        <div className="flex flex-col gap-5 md:flex-row justify-between items-center w-full">
           <svg
             width="125"
             height="32"
