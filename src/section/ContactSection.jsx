@@ -15,13 +15,13 @@ export default function ContactSection() {
       <div className="flex justify-center items-center gap-4">
         <button
           type="button"
-          className="text-xs md:text-p capitalize p-3 md:px-6 md:py-4 rounded-[30px] bg-ntrlThird text-ntrlPrime"
+          className="text-xs md:text-p capitalize p-3 md:px-6 md:py-4 rounded-[30px] bg-ntrlThird text-ntrlPrime hover:bg-ntrlSecond hover:scale-105 transition-all hover:text-ntrlThird"
         >
           Start with us
         </button>
         <button
           type="button"
-          className="text-xs md:text-p p-3 md:px-6 md:py-4 rounded-[30px] bg-ntrlPrime text-ntrlThird border-2 border-ntrlThird"
+          className="text-xs md:text-p p-3 md:px-6 md:py-4 rounded-[30px] bg-ntrlPrime text-ntrlThird hover:bg-ntrlSecond hover:scale-105 transition-all border-2 border-ntrlThird"
         >
           Consult with team
         </button>

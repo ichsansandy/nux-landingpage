@@ -28,7 +28,7 @@ export default function AboutSection() {
           </div>
         ))}
       </div>
-      <button className="px-6 py-3 mb-3 bg-ntrlPrime text-ntrlThird w-fit rounded-3xl">
+      <button className="px-6 py-3 mb-3 bg-ntrlPrime text-ntrlThird w-fit rounded-3xl hover:scale-125 transition-all">
         Meet The Team
       </button>
     </section>
