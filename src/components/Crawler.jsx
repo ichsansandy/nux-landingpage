@@ -26,6 +26,17 @@ export default function Crawler({ data }) {
           </div>
         ))}
       </div>
+      <div className="inline-block animate-slide">
+        {data.map((item) => (
+          <div
+            className="inline-flex items-center gap-2 ml-2 "
+            key={`triple${item.id}`}
+          >
+            <GoDotFill />
+            <div>{item.name}</div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
