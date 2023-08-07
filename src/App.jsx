@@ -1,12 +1,11 @@
+import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 
 function App() {
   return (
     <main>
       <Navbar />
-      <section>
-        <display>Hero</display>
-      </section>
+      <HeroSection />
       <section>Service</section>
       <section>Project</section>
       <section>Client</section>

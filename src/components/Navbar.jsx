@@ -3,8 +3,8 @@ import { BsMedium } from 'react-icons/bs';
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-[32px] py-[29px] w-full bg-background">
-      <div className="hidden md:flex gap-1">
+    <nav className="flex md:justify-between items-center px-[32px] py-[29px] w-full bg-background">
+      <div className="hidden lg:flex gap-1">
         <a
           href=""
           target="_blank"
@@ -30,8 +30,8 @@ export default function Navbar() {
           <AiOutlineDribbble />
         </a>
       </div>
-      <ul className="flex justify-evenly items-center w-full max-w-[803px]">
-        <div className="hidden md:flex justify-evenly w-full">
+      <ul className="flex lg:justify-evenly items-center w-full max-w-[803px]">
+        <div className="hidden lg:flex justify-evenly w-full">
           <li className="hover:underline hover:scale-110 transition-all">
             <a href="#hero">Home</a>
           </li>
@@ -45,7 +45,7 @@ export default function Navbar() {
         <li className="uppercase text-[24px] font-semibold hover:underline hover:scale-110 transition-all">
           <a href="#hero">Nuxdsgn.</a>
         </li>
-        <div className="hidden md:flex justify-evenly w-full">
+        <div className="hidden lg:flex justify-evenly w-full">
           <li className="hover:underline hover:scale-110 transition-all">
             <a href="#testimonials">Testimonials</a>
           </li>
@@ -58,7 +58,7 @@ export default function Navbar() {
         </div>
       </ul>
       <button
-        className="bg-ntrlThird text-ntrlPrime px-6 py-3 rounded-3xl hover:bg-ntrlPrime hover:scale-110 hover:text-ntrlThird transition-all"
+        className="hidden md:block bg-ntrlThird text-ntrlPrime px-6 py-3 rounded-3xl hover:bg-ntrlPrime hover:scale-110 hover:text-ntrlThird transition-all"
         type="button"
       >
         Collaborate?
