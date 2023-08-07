@@ -42,7 +42,7 @@ export default function Navbar() {
             <a href="#project">Project</a>
           </li>
         </div>
-        <li className="uppercase text-[24px] font-semibold hover:underline hover:scale-110 transition-all">
+        <li className="uppercase text-[24px] xl:px-10 font-semibold hover:underline hover:scale-110 transition-all">
           <a href="#hero">Nuxdsgn.</a>
         </li>
         <div className="hidden lg:flex justify-evenly w-full">

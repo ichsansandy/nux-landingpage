@@ -14,14 +14,16 @@ export default {
       },
       fontSize: {
         display: '139px',
+        h1: '56px',
+        p: '18px',
       },
       animation: {
         slide: 'slide 12s linear infinite',
       },
       keyframes: {
         slide: {
-          'from': { transform: 'translateX(0)' },
-          'to': { transform: 'translateX(-100%)' },
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
         },
       },
     },

@@ -1,6 +1,6 @@
 import heroImage from '../assets/heroImg.png';
 import { services } from '../data/service';
-import Crawler from './Crawler';
+import Crawler from '../components/Crawler';
 
 export default function HeroSection() {
   return (
@@ -34,16 +34,16 @@ export default function HeroSection() {
         </span>
       </div>
       <div className="h-[55px] bg-ntrlThird text-ntrlPrime flex items-center text-[32px]">
-        <Crawler data={services}/>
+        <Crawler data={services} />
       </div>
-      <div className="h-[299px] bg-brand uppercase text-[244px] flex justify-center items-center tracking-tighter">
+      <div className="h-[130px] text-[52.5px] sm:text-[90px] lg:h-[299px] lg:text-[154px] xl:text-[230px] bg-brand uppercase  flex justify-center items-center tracking-tighter">
         nux design
       </div>
-      <div className='overflow-hidden'>
+      <div className="overflow-hidden">
         <img
           alt="hero"
           src={heroImage}
-          className="w-full h-[792px] grayscale hover:scale-105 hover:grayscale-0 transition-all"
+          className="w-full xl:h-[792px] grayscale hover:scale-105 hover:grayscale-0 transition-all"
         />
       </div>
     </section>

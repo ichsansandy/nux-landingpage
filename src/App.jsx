@@ -1,12 +1,13 @@
-import HeroSection from './components/HeroSection';
+import HeroSection from './section/HeroSection';
 import Navbar from './components/Navbar';
+import ServiceSection from './section/ServiceSection';
 
 function App() {
   return (
     <main>
       <Navbar />
       <HeroSection />
-      <section>Service</section>
+      <ServiceSection />
       <section>Project</section>
       <section>Client</section>
       <section>Testimonial</section>
