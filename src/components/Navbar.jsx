@@ -3,10 +3,10 @@ import { BsMedium } from 'react-icons/bs';
 
 export default function Navbar() {
   return (
-    <nav className="flex md:justify-between items-center px-[32px] py-[29px] w-full bg-background">
+    <nav className="fixed top-0 flex md:justify-between items-center px-[32px] py-[29px] w-full backdrop-blur-xl mix-blend-difference text-ntrlPrime drop-shadow z-10">
       <div className="hidden lg:flex gap-1">
         <a
-          href=""
+          href="https://github.com/ichsansandy"
           target="_blank"
           rel="noreferrer"
           className="bg-ntrlThird text-ntrlPrime text-[16px] p-2 rounded-full cursor-pointer hover:bg-ntrlPrime hover:text-ntrlThird transition-all"
@@ -14,7 +14,7 @@ export default function Navbar() {
           <AiFillInstagram />
         </a>
         <a
-          href=""
+          href="https://github.com/ichsansandy"
           target="_blank"
           rel="noreferrer"
           className="bg-ntrlThird text-ntrlPrime text-[16px] p-2 rounded-full cursor-pointer hover:bg-ntrlPrime hover:text-ntrlThird transition-all"
@@ -22,7 +22,7 @@ export default function Navbar() {
           <BsMedium />
         </a>
         <a
-          href=""
+          href="https://github.com/ichsansandy"
           target="_blank"
           rel="noreferrer"
           className="bg-ntrlThird text-ntrlPrime text-[16px] p-2 rounded-full cursor-pointer hover:bg-ntrlPrime hover:text-ntrlThird transition-all"
@@ -57,12 +57,13 @@ export default function Navbar() {
           </li>
         </div>
       </ul>
-      <button
+      <a
         className="hidden md:block bg-ntrlThird text-ntrlPrime px-6 py-3 rounded-3xl hover:bg-ntrlPrime hover:scale-110 hover:text-ntrlThird transition-all"
         type="button"
+        href='#contact'
       >
         Collaborate?
-      </button>
+      </a>
     </nav>
   );
 }

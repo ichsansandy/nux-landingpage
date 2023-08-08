@@ -5,8 +5,8 @@ import { teams } from '../data/team';
 export default function AboutSection() {
   return (
     <section
-      id="contact"
-      className="pt-[90px] px-[32px] bg-ntrlThird text-ntrlPrime flex flex-col items-center gap-[72px]"
+      id="blog"
+      className="pt-28 px-[32px] bg-ntrlThird text-ntrlPrime flex flex-col items-center gap-[72px]"
     >
       <div className="max-w-[916px]">
         <SectionSubTitle>04 / About Us</SectionSubTitle>

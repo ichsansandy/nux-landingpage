@@ -8,7 +8,7 @@ export default function ServiceSection() {
   return (
     <section
       id="service"
-      className="flex flex-col items-center py-[86px] bg-ntrlThird text-ntrlPrime"
+      className="flex flex-col items-center py-28 bg-ntrlThird text-ntrlPrime"
     >
       <div className="flex px-5 flex-col justify-between xl:h-[370px] md:mb-[50px] xl:mb-[125px]">
         <div className="max-w-[900px]">

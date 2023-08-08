@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <section id="hero">
       <div className='bg-background'>
-        <div className="py-14 px-7 lg:px-14 max-w-[1375px] bg-transparent">
+        <div className="py-28 px-7 lg:px-14 max-w-[1375px] bg-transparent">
           <div className="inline tracking-tight text-[30px] leading-[35px] sm:text-[60px] md:text-[70px] md:leading-[60px] lg:text-display uppercase font-extrabold lg:leading-[125px]">
             super branding and creative ideas
           </div>
